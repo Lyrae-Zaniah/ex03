@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth; /* Ativa o scroll suave */
+}
+body {
+    background-image: url('bg-assistir.jpg'); /* URL da imagem */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    background-size: cover;
+}
+.menu-front {
+    padding: 0 150px;
+    background-color: #101218;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    border-bottom: 1px solid gray;
+}
+.logo {
+    align-items: center;
+    width: 2%;
+    height: 30px;
+}
+#cat {
+    width: auto;
+    height: 32px;
+    cursor: pointer;
+}
+.opcoes {
+    color: white;
+    width: 60%;
+    display: flex;
+    list-style-type: none;
+    padding-left: 20px;
+}
+#opcao {
+    margin: 10px;
+    font-size: 16px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+#opcao:hover {
+    color: #dd3333;
+}
+.inputbusca {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: end;
+}
+#inputbusca {
+    display: flex;
+    align-items: center;
+    background-color: rgb(65, 65, 65);
+    height: 35px;
+    width: 260px;
+    border-radius: 5px 0px 0px 5px;
+    padding-left: 10px;
+    z-index: 1;
+    border: none;
+}
+#inputbusca::placeholder {
+    color: gray;
+}
+#inputbusca:focus {
+    color: white;
+    outline: none; /* Remove o contorno padrão */
+    border-color: red; /* Muda a cor da borda ao focar */
+}
+.search-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(65, 65, 65);
+    height: 35px;
+    width: 30px;
+}
+.icone {
+    margin-right: 7px;
+}
+.icon-search {
+    color: white;
+    cursor: pointer;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+.animes {
+    background-color: #101218;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: 200vh;
+}
+.copyright {
+    background-color: #101218;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    height: 100px;
+    margin-bottom: 135px;
+    border-top: 1px solid gray;
+}
+.copyright-text {
+    color: white;
+    margin-left: 30px;
+    display: flex;
+}
+.button-return {
+    padding: 10px;
+    background-color: gray;
+    color: white;
+    margin-right: 30px;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+a {
+    border: none;
+    text-decoration: none;
+    color: white;
+}
